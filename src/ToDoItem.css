@@ -1,0 +1,54 @@
+/* .ToDoItem {
+  margin: 1rem;
+  height: 20rem;
+  /* border: 1px solid black;
+  background: white; /
+  overflow: auto;
+  width: 20rem;
+  padding: .25rem 1rem;
+} */
+
+/* .ToDoItem h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  border: 1px solid black;
+  background: white;
+}*/
+
+.ToDoItem {
+  border: 1px solid black;
+  background: white;
+  position: relative;
+  height: 20rem;
+  overflow: auto;
+  width: 20rem;
+  margin: 1rem;
+  padding: .25rem 1rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  word-wrap: break-word;
+}
+
+.ToDoItem h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(40, 40, 40);
+}
+
+.ToDoItem button {
+  background: none;
+  border: none;
+  color: rgb(100, 100, 100);
+  padding: .25rem 1rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  position: absolute;
+  top: 0.75rem;
+  right: 0rem;
+  width: auto;
+}
+
+.ToDoItem button:hover {
+  cursor: pointer;
+  color: rgb(40, 40, 40);
+}
